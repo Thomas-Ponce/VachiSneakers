@@ -1,0 +1,27 @@
+.card-imagen{
+    @include size (15rem, 13rem);
+}
+.card-titulo{
+    font-family: 'Arimo', sans-serif;   /* cambiar tipo de fuente-letra */
+}
+.seccion-titulos{
+
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.5rem;
+    margin: 2rem 0rem;
+    text-align: center;
+}
+.marcas-index{
+    @include size (10rem, 13rem);
+} 
+.seccion-portada{
+    @include size (20rem, 20rem);
+    margin: 1rem 0rem;
+}
+.card-titulo-producto{
+    font-size: 1.5rem;
+    color: $black;
+}
+.card-precios-productos{
+    color: $black;
+}

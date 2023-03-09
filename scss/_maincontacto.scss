@@ -1,0 +1,35 @@
+.main-contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-form{
+    background-color: $liteblue;
+    width: 60rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.main-contacto-secciones{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.main-contacto-label{
+    font-family: 'Arimo', sans-serif;
+}
+.main-contacto-input{
+    border: 1px solid $white;
+    padding: 0.5rem;
+    width: 70%; 
+}
+.main-textarea{
+    @include size (20rem, 70%);
+}
+.main-contacto-boton{
+    background-color: $black;
+    color: $white;
+    text-decoration: none;
+    padding: 0.5rem;
+    
+}

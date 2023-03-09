@@ -1,0 +1,44 @@
+*{     
+    padding: 0;     
+    margin: 0;     
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+}
+
+// each
+$backgcolors: (
+    "golden": $golden,
+    "liteblack": $liteblack,
+    "grey": $grey,
+    "litegrey": $litegrey,
+    "blackred": $blackred,
+    "violet": $violet,
+    "blue": $blue,
+    "red": $red,
+    "orange": $orange,
+    "liteblue": $liteblue
+);
+@each $backg, $valor in $backgcolors {
+    .color-#{$backg} {
+        background-color: $valor;
+    }
+}
+@mixin size ($alto, $ancho){
+    height: $alto ;
+    width: $ancho;
+}
+.boton{
+    color: $white;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.main-contacto-boton{
+    background-color: $black;
+    padding: 0.5rem;
+}
+.header-boton{
+    @include size (2rem, 6rem);
+    background-color: $brown;
+}
