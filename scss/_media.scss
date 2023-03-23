@@ -40,4 +40,13 @@
     .main-local{
         @include size (auto, 90%);
     }
+    .productos-especiales{
+        flex-direction: column;
+        width: 90%;
+        height: 27rem;
+        margin-bottom: 2rem;
+    }
+    .card-informacion{
+        text-align: start;
+    }
 }
